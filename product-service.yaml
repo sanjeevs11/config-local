@@ -25,7 +25,5 @@ management:
 
 opentracing:
   jaeger:
-    udp-sender:
-      host: localhost
-      port: 6831
-    log-spans: true
+    http-sender:
+      url: http://localhost:14268/api/traces
