@@ -8,7 +8,7 @@ eureka:
  client:
    registerWithEureka: true
    fetch-registry: true
-   serverUrl:
+   serviceUrl:
      defaultZone: http://${DISCOVERY_NAME:localhost}:${DISCOVERY_PORT:8761}/eureka
    instance:
      hostname: 172.18.93.174
